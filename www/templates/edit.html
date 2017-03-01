@@ -1,0 +1,22 @@
+<div>
+<ion-view view-title="Edición de Nota ">
+  <ion-content >
+
+    <div class="list card">
+      <div class="item imput">
+        <input type="text" ng-model="nota.titulo">
+      </div>
+
+      <div class="item imput">
+        <textarea ng-model="nota.descripcion"></textarea>
+      </div>
+    </div>
+
+    <div class="list card">
+      <div class="padding">
+        <button class="button button-block button-positive" ng-click="save()">Guardar</button>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
+</div>
